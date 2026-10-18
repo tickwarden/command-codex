@@ -1,0 +1,3 @@
+# Gives one Command Codex Ultra to @s.
+give @s minecraft:writable_book[minecraft:custom_data={ccxu:1b},minecraft:custom_name={text:"Command Codex Ultra",color:"light_purple",italic:0b},minecraft:lore=[{text:"One command per page.",color:"gray",italic:0b},{text:"Hold it, then use /trigger ccxu.run",color:"gray",italic:0b},{text:"Pages starting with # are skipped.",color:"dark_gray",italic:0b}],minecraft:enchantment_glint_override=1b,minecraft:writable_book_content={pages:[{raw:"# Command Codex Ultra - one command per page"},{raw:"say Hello from my Codex"}]}]
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2

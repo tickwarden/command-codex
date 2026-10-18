@@ -1,0 +1,1 @@
+title @s actionbar [{text:"Command Codex Ultra: ",color:"light_purple"},{score:{name:"#ran",objective:"ccxu.tmp"},color:"white"},{text:" run, ",color:"gray"},{score:{name:"#fail",objective:"ccxu.tmp"},color:"red"},{text:" failed",color:"gray"}]
