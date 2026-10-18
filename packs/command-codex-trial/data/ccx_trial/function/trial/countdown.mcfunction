@@ -1,0 +1,5 @@
+scoreboard players operation #left cxt.tmp = #limit cxt.state
+scoreboard players operation #left cxt.tmp -= #clock cxt.state
+execute if score #left cxt.tmp matches 12000 run tellraw @a [{text:"[Command Codex] ",color:"light_purple"},{text:"Trial ends in 10 minutes.",color:"gold"},{text:" [Full version]",color:"aqua",click_event:{action:"open_url",url:"https://github.com/runtoolkit/command-codex"},hover_event:{action:"show_text",value:"Open the project page"}}]
+execute if score #left cxt.tmp matches 1200 run tellraw @a [{text:"[Command Codex] ",color:"light_purple"},{text:"Trial ends in 1 minute.",color:"gold"},{text:" [Full version]",color:"aqua",click_event:{action:"open_url",url:"https://github.com/runtoolkit/command-codex"},hover_event:{action:"show_text",value:"Open the project page"}}]
+execute if score #left cxt.tmp matches 200 run tellraw @a [{text:"[Command Codex] ",color:"light_purple"},{text:"Trial ends in 10 seconds.",color:"gold"},{text:" [Full version]",color:"aqua",click_event:{action:"open_url",url:"https://github.com/runtoolkit/command-codex"},hover_event:{action:"show_text",value:"Open the project page"}}]
