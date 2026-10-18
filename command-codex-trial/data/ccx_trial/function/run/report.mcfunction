@@ -1,0 +1,1 @@
+title @s actionbar [{text:"Command Codex trial: ",color:"light_purple"},{score:{name:"#ran",objective:"cxt.tmp"},color:"white"},{text:" run, ",color:"gray"},{score:{name:"#deny",objective:"cxt.tmp"},color:"red"},{text:" blocked",color:"gray"}]

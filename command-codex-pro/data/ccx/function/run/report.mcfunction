@@ -1,0 +1,1 @@
+title @s actionbar [{text:"Command Codex: ",color:"light_purple"},{score:{name:"#ran",objective:"ccx.tmp"},color:"white"},{text:" run, ",color:"gray"},{score:{name:"#fail",objective:"ccx.tmp"},color:"red"},{text:" failed",color:"gray"}]
